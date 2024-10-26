@@ -77,7 +77,7 @@ let proxyhosts = [];//本地代理域名池
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let RproxyIP = 'false';
 let httpsPorts = ["2053","2083","2087","2096","8443"];
-let effectiveTime = 7;//有效时间 单位:天
+let effectiveTime = 15;//有效时间 单位:天
 let updateTime = 3;//更新时间
 export default {
 	/**
